@@ -10,7 +10,7 @@
  * 
  */
 
-class Plugin_Name_i18n {
+class Wordpress_Contributor_i18n {
 	/**
 	 * Load the plugin text domain for translation.
 	 * Define function for internationalization
