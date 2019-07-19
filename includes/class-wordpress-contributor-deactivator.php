@@ -1,6 +1,6 @@
 <?php
 /**
- * This class is for the activation function which will fired on plugin activation
+ * This class is for the deactivation function which will fired on plugin deactivation
  * 
  * @since 1.0.0
  * 

@@ -1,6 +1,6 @@
 <?php
 /**
- * This class is for the activation function which will fired on plugin activation
+ * This class is for the function which will load text domain for the plugin.
  * 
  * @since 1.0.0
  * 
