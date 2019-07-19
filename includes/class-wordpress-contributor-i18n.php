@@ -4,9 +4,9 @@
  * 
  * @since 1.0.0
  * 
- * @package Wordpress_Contributer
+ * @package Wordpress_Contributor
  * 
- * @subpackage Wordpress_Contributer/includes
+ * @subpackage Wordpress_Contributor/includes
  * 
  */
 
