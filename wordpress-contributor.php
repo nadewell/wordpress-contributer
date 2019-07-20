@@ -56,7 +56,7 @@ register_deactivation_hook( __FILE__, 'deactivate_wordpress_contributor' );
  * Import plugin class that is used to define internationalization
  * and all hooks/filters.
  */
-require plugin_dir_path( __FILE__ ) . 'includes/class-plugin-name.php';
+require plugin_dir_path( __FILE__ ) . 'includes/class-wordpress-contributor.php';
 /**
  * Begin the excution of core plugin class using it's instance
  * 

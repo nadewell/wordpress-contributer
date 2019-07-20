@@ -1,0 +1,34 @@
+.contributors {
+    margin-top: 20px;
+}
+.contributors h4 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.contributors ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+.contributors ul li > span {
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+.contributors ul li > a {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #333333;
+}
+.contributors ul li > a:first-of-type {
+    margin-right: 10px;
+}
+.contributors ul li > a, .contributors ul li > a > img {
+    border-radius: 50%;
+}

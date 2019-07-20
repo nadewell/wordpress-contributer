@@ -119,6 +119,8 @@ class Wordpress_Contributor {
 		$plugin_admin = new Wordpress_Contributor_Admin( $this->get_plugin_name(), $this->get_version() );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
+		$this->loader->add_action( 'add_meta_boxes', $plugin_admin, 'contributors_add_meta_box' );
+		$this->loader->add_action( 'save_post', $plugin_admin, 'contributors_save_meta_box' );
     }
     
     /**
@@ -131,6 +133,7 @@ class Wordpress_Contributor {
 		$plugin_public = new Wordpress_Contributor_Public( $this->get_plugin_name(), $this->get_version() );
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
+		$this->loader->add_filter( 'the_content', $plugin_public, 'add_contributors_content' );
     }
     
     /**
